@@ -1,0 +1,104 @@
+﻿* {
+  outline: none;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header-bg, .header-top-bg {
+  background-image: url(/assets/img/header-bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.header-bg {
+  height: 80vh;
+}
+
+.header-top-bg {
+  height: 100px;
+  top: 0;
+  z-index: 1000;
+}
+
+.title {
+  font-size: 4em;
+}
+
+.subtitle {
+  font-size: 2.5em;
+}
+
+.services-title {
+  font-size: 2.5em;
+}
+
+.section-subtitle {
+  font-size: 1.3em;
+}
+
+.card-image {
+  height: 150px;
+  width: 150px;
+}
+
+.card-title-size {
+  font-size: 1.7em;
+}
+
+.touch-btn {
+  background-image: url(/assets/img/touch-bg.png);
+  width: 295px;
+  border-radius: 30px;
+}
+
+.carousel-img {
+  width: 400px;
+  left: 100px;
+  z-index: 1;
+}
+
+.carousel-img-bg {
+  width: 300px;
+  top: 270px;
+  left: 0;
+}
+
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(167, 167, 167);
+}
+
+.contact-bg {
+  background-color: black;
+}
+
+.footer {
+  background-image: url(/assets/img/footer-bg.jpg);
+}
+
+.contact-btn {
+  background-color: rgb(37, 37, 37);
+}
+
+.bottom-title-line {
+  width: 5%;
+  border-bottom: 4px solid grey;
+  border-radius: 2px;
+}
+
+.carousel-title {
+  font-size: 30px;
+}
