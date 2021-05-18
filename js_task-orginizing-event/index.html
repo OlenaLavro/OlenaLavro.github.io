@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HW_8</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="wrapper">
+    <form class="form" id="form" >
+      <label for="name">Enter name:</label> <input type="text" class="input" id="name" placeholder="Name...">
+      <label for="name">Enter time:</label> <input type="text" class="input" id="time" placeholder="Time...">
+      <label for="place">Enter place:</label> <input type="text" class="input" id="place" placeholder="Place...">
+      <div class="buttons">
+        <input type="button" class="button" onclick="getInputValuesFromForm()" id="confirm" value="Confirm" >
+        <input type="button" class="button" onclick="getAmountsOfMoney()" id="convert" value="Conventer" >
+      </div>
+      
+    </form>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>
